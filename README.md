@@ -17,6 +17,6 @@ WEB_HOST={IP} npm start
 ```
 instead of {IP} put address of your network interface to bind, for example:
 ```shell
-WEB_HOST={IP} npm start
+WEB_HOST=192.168.1.140 npm start
 ```
 Open browser with URL https://{IP}:5000 to test it, accept self-signed certificate and have a fun :)
